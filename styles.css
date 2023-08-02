@@ -8,6 +8,12 @@ main{
     margin: 0 auto;
 }
 
+footer{
+    text-align: center;
+    background: #000000;
+    padding: 40px;
+}
+
 .encab{
     width: 940px;
     position: relative;
