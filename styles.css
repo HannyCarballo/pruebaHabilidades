@@ -229,3 +229,9 @@
     align-items: center;
     height: 100vh; 
   }
+
+  .contenedorSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
