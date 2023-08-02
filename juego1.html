@@ -18,7 +18,11 @@
         const colorPicker = document.getElementById("colorPicker");
        
         canvas.addEventListener("click", (event) => {
-            
+            const x = event.clientX - canvas.getBoundingClientRect().left;
+            const y = event.clientY - canvas.getBoundingClientRect().top;
+            const color = colorPicker.value;
+            circles.push({ x, y, color });
+            drawCircles();
         });
 
         function drawCircles() {
@@ -32,7 +36,7 @@
             });
         }
         drawCircles();
-        
+
     </script>
 
 </body>
