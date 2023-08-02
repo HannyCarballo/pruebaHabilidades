@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Hanny Carballo">
+    <meta name="description" content="Interfaz de juegos">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>¡Diviertete y crea!</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://media.giphy.com/media/L467SiRLYEl4ygMQjJ/giphy.gif">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+      /* Estilo para el párrafo inicial */
+      .parrafo-corto {
+        cursor: pointer;
+      }
+      /* Estilo para el párrafo ampliado */
+      .parrafo-ampliado {
+        display: none;
+      }
+      .link-estilizado {
+        color: black; /* Color del texto del enlace (negro) */
+        text-decoration-color: #cf508c; /* Color del subrayado del enlace */
+      }
+    </style>
+    <script>
+      function ampliarParrafo() {
+        var parrafo = document.getElementById("parrafo");
+        var parrafoAmpliado = document.getElementById("parrafo-ampliado");
+        
+        if (parrafo.style.display === "none") {
+          parrafo.style.display = "block";
+          parrafoAmpliado.style.display = "none";
+        } else {
+          parrafo.style.display = "none";
+          parrafoAmpliado.style.display = "block";
+        }
+      }
+    </script>  
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="https://media.giphy.com/media/L467SiRLYEl4ygMQjJ/giphy.gif" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">¿En qué consiste esta página?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Juegos</a>
+            </li>  
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/HannyCarballo.jpg" alt="Foto de Hanny">
+        <h1>Hey! Bienvenido a este centro de videojuegos :)</h1>
+        <!--Animación con JavaScript-->
+        <h2 style="color: #cf508c; font-style: italic;" class="mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://media.giphy.com/media/M4NykXxUE0HAcK7UJ6/giphy.gif" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React." width="300">
+      </div>
+    </section>
+
+    <!-- Explicación -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">¿En qué consiste esta página?</h2>
+        <p style="font-style: italic" class="seccion-texto">
+            Aquí podrás encontrar 3 juegos para divertirte, volver a ser niño y pasar un buen rato :)
+        </p>
+      </div>
+    </section>
+
+    <!-- Juegos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Juegos disponibles</h2>
+      <h3 class="seccion-descripcion">¿Listo para la diversión?</h3>
+      <!-- Galeria de juegos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Juego 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="#" alt="CreArte">
+              <div class="overlay">
+                <p>CreArte</p>
+                <div class="iconos-contenedor">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Juego 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="#" alt="Juego 2">
+              <div class="overlay">
+                <p>Juego 2</p>
+                <div class="iconos-contenedor">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Juego 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="#" alt="Juego 3">
+              <div class="overlay">
+                <p>Juego 3</p>
+                <div class="iconos-contenedor">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <!-- Noticias -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Noticias sobre videojuegos</h2>
+      <div class="card">
+        <div class="card-header">
+          Recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="link-estilizado">
+            <li class="list-group-item">
+              
+            </li>
+          </a>
+        </ul>
+      </div>
+      <img src="https://media.giphy.com/media/irv7qwknRUyWYqtMJL/giphy.gif" alt="laptop">
+      </a>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center" style="font-family: 'Dancing Script', cursive; font-size: 40px;">El código es poesía <br>en movimiento.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/CarballoHanny" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/HannyCarballo" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/hannycarballoramirez/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="mailto:hannycarballo504@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Hanny Carballo (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
