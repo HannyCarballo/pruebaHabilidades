@@ -223,14 +223,14 @@
     border: 1px solid black;
 }
 
-.contenedor {
+.contenedorLienzo {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh; 
   }
 
-  .contenedorSec {
+  .contenedorLienzoSec {
     display: flex;
     justify-content: center;
     align-items: center;
