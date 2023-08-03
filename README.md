@@ -21,13 +21,5 @@ Este proyecto consiste en una página web adaptable a dispositivos de distintos 
 - Piedra, papel o tijeras:
 ![Piedra](capturas/cap3.png)
 
-### Capturas de pantalla de la página en general
-
-- Primera parte de la página web:
-![Primera parte de la página web](capturas/parte1.png)
-- Segunda parte de la página web:
-![Segunda parte de la página web](capturas/parte2.png)
-- Tercera parte de la página web:
-![Tercera parte de la página web](capturas/parte3.png)
-- Última parte de la página web:
-![Última parte de la página web](capturas/parte4.png)
+### Página web 
+![Gif toda la página](capturas/pagina.gif)
