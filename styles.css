@@ -235,3 +235,11 @@
     justify-content: center;
     align-items: center;
   }
+
+  .contenedorJuego {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
