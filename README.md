@@ -22,4 +22,4 @@ Este proyecto consiste en una página web adaptable a dispositivos de distintos 
 ![Piedra](capturas/cap3.png)
 
 ### Página web 
-![Gif toda la página](capturas/pagina.gif)
+![Gif toda la página](capturas/página.gif)
