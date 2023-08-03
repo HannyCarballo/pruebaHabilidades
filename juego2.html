@@ -26,6 +26,9 @@
         function adivina() {
             const guess = parseInt(document.getElementById("guessInput").value);
             attempts++;
+
+            if (guess === targetNumber) {
+                document.getElementById("message").innerHTML = `Heyyyyy! Muy bien ¡Adivinaste el número ${targetNumber} en ${attempts} intentos!`;
         }
 
     </script>
