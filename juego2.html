@@ -29,6 +29,9 @@
 
             if (guess === targetNumber) {
                 document.getElementById("message").innerHTML = `Heyyyyy! Muy bien ¡Adivinaste el número ${targetNumber} en ${attempts} intentos!`;
+            }else if (guess < targetNumber) {
+                document.getElementById("message").innerHTML = "Intenta con un número más grande.";
+            }
         }
 
     </script>
