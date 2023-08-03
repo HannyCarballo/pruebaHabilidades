@@ -25,3 +25,6 @@ Este proyecto consiste en una página web adaptable a dispositivos de distintos 
 ![Gif toda la página](capturas/página.gif)
 
 Puedes encontrar el proyecto en el siguiente link: https://hannycarballo.github.io/pruebaHabilidades/
+
+¡Gracias por su atención!
+<img width="70" alt="image" src="https://media.giphy.com/media/JmOCq0T5qEJyZ3oQj8/giphy.gif">
