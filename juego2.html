@@ -7,7 +7,7 @@
     <title>Adivina adivinador</title>
 </head>
 <body>
-    <div class="hero-principal d-flex flex-column justify-content-center align-items-center"></div>
+    <div class="center"></div>
     <h1 align="center">Adivina adivinador</h1>
     <br>
     <p align="center">¿Puedes adivinar en qué número estoy pensando?. Estoy pensando en un número del 1 al 100</p>
@@ -17,9 +17,12 @@
     <br>
     <input type="number" id="guessInput" min="1" max="100">
     <button onclick="adivina()">¿ya adivinaste correctamente el número? Da click aquí y verás.</button>
+    <br>
     <button onclick="deNuevo()">¡Quiero jugar otra vez!</button>
     <p id="message"></p>
+    <img src="https://media.giphy.com/media/777Aby0ZetYE8/giphy.gif">
 
+    <div class="contenedorLienzo">
     <script>
         const targetNumber = Math.floor(Math.random() * 100) + 1;
         let attempts = 0;
@@ -44,6 +47,7 @@
         }
 
     </script>
+    </div>
 </div>
 </body>
 </html>
