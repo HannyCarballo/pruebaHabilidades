@@ -16,7 +16,8 @@
     <br>
     <br>
     <input type="number" id="guessInput" min="1" max="100">
-    <button onclick="checkGuess()">¿ya adivinaste correctamente el número? Da click aquí y verás.</button>
+    <button onclick="adivina()">¿ya adivinaste correctamente el número? Da click aquí y verás.</button>
+    <button onclick="verNum()">¡Quiero saber el número secreto!</button>
     <p id="message"></p>
 
     <script>
@@ -34,6 +35,10 @@
             }else {
                 document.getElementById("message").innerHTML = "Intenta con un número más pequeño.";
             }
+        }
+
+        function verNum(){
+            document.getElementById("message").innerHTML = `El número secreto era: ${targetNumber}`;
         }
 
     </script>
