@@ -8,5 +8,5 @@ Las tecnologías aplicadas fueron las siguientes:
 - <img width="40" alt="image" src="https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif">   HTML 
 - <img width="40" alt="image" src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif">   CSS 
 - <img width="40" alt="image" src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif">   JavaScript 
-- <img width="50" alt="image" src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif">   Git 
+- <img width="40" alt="image" src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif">   Git 
 - <img width="40" alt="image" src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif">   GitHub 
