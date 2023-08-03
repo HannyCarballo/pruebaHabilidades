@@ -31,6 +31,12 @@
             let result;
             if (opcionUsuario === opcionesCompu) {
                 result = "Empate";
+            } else if (
+                (opcionUsuario === "piedra" && opcionesCompu === "tijera") ||
+                (opcionUsuario === "papel" && opcionesCompu === "piedra") ||
+                (opcionUsuario === "tijera" && opcionesCompu === "papel")
+            ) {
+                result = "Felicidadeeeeeees. ¡¡¡Ganaste!!!";
             }
         }
     </script>
